@@ -24,6 +24,11 @@
     margin: auto 0;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
 .obj h4 {
     height: 40%;
     width: 100%;
@@ -32,14 +37,34 @@
     position: absolute;
 }
 
-.obj textarea {
+.inputtext {
+    text-align: center;
+    top: 19%;
+    position: absolute;
+}
+
+.inputext {
     height: 40%;
     width: 96%;
 }
 
-.obj button {
+.obj button, .inputbutton {
     height: 30%;
     width: 100%;
     bottom: 0;
     position: absolute;
+}
+
+input {
+    position: relative;
+    width: 100%;
+    box-sizing:border-box;
+}
+
+.cellsel {
+    height: 5%;
+    width: 20% !important;
+    position: absolute;
+    top: 5%;
+    text-align: center;
 }

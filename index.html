@@ -10,13 +10,18 @@
 </head>
 <body>
     <div class="canvas">
+        <input type="text" value="" name="selval" class="cellsel" id="cellform" required></input>
         <div class="obj">
-            <h4>Here's txt</h4>
+            <h4 id="gettxt">GET Value</h4>
             <button onclick="get()">GET</button>
         </div>
         <div class="obj">
-            <textarea></textarea>
-            <button onclick="post()">POST</button>
+            <form action="#" method="get" id="form">
+                <input type="text" value="" name="postdate" class="inputtext" required></input>
+                <input type="text" value="" name="posttime" class="inputtext" style="top: 30%;" required></input>
+                <input type="text" value="" name="postval" class="inputtext" style="top: 41%;" required></input>
+                <input type="submit" onclick="post(); return false;" class="inputbutton" value="POST"></input>
+            </form>
         </div>
     </div>
 </body>
