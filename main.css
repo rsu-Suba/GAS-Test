@@ -1,0 +1,45 @@
+.canvas {
+    background-color: #ddd;
+    height: 80vh;
+    width: 60vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 5vh;
+    border: solid 0.5px #bbb;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.obj {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 35%;
+    position: relative;
+    margin: auto 0;
+}
+
+.obj h4 {
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    top: 10%;
+    position: absolute;
+}
+
+.obj textarea {
+    height: 40%;
+    width: 96%;
+}
+
+.obj button {
+    height: 30%;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
